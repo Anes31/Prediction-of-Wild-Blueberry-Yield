@@ -3117,3 +3117,1842 @@ THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
 2023-05-04 00:57:09,409:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_9520_be65403204f3472db69a0477bb7073b5_fd80c80f44b04ee596b1df7c95a6dfaf
   .format(pool_subfolder))
 
+2023-05-08 22:17:41,670:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-08 22:17:41,672:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-08 22:17:41,672:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-08 22:17:41,672:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-08 22:17:42,684:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-05-08 22:19:29,562:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-08 22:19:29,562:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-08 22:19:29,562:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-08 22:19:29,562:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-08 22:19:29,994:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-05-08 22:22:11,631:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-08 22:22:11,631:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-08 22:22:11,632:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-08 22:22:11,632:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-08 22:22:12,059:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-05-08 22:22:48,444:INFO:PyCaret RegressionExperiment
+2023-05-08 22:22:48,444:INFO:Logging name: reg-default-name
+2023-05-08 22:22:48,444:INFO:ML Usecase: MLUsecase.REGRESSION
+2023-05-08 22:22:48,444:INFO:version 3.0.0
+2023-05-08 22:22:48,444:INFO:Initializing setup()
+2023-05-08 22:22:48,444:INFO:self.USI: 5999
+2023-05-08 22:22:48,444:INFO:self._variable_keys: {'X_train', 'n_jobs_param', 'y_test', 'exp_name_log', 'gpu_n_jobs_param', 'target_param', 'fold_shuffle_param', 'logging_param', 'log_plots_param', 'idx', 'exp_id', 'pipeline', 'y', 'seed', 'fold_generator', 'transform_target_param', 'USI', 'X', 'gpu_param', 'X_test', 'html_param', 'y_train', '_available_plots', 'fold_groups_param', 'memory', '_ml_usecase', 'data'}
+2023-05-08 22:22:48,445:INFO:Checking environment
+2023-05-08 22:22:48,445:INFO:python_version: 3.7.15
+2023-05-08 22:22:48,445:INFO:python_build: ('default', 'Nov 24 2022 18:44:54')
+2023-05-08 22:22:48,445:INFO:machine: AMD64
+2023-05-08 22:22:48,445:INFO:platform: Windows-10-10.0.19041-SP0
+2023-05-08 22:22:48,445:INFO:Memory: svmem(total=17092636672, available=7107547136, percent=58.4, used=9985089536, free=7107547136)
+2023-05-08 22:22:48,445:INFO:Physical Core: 8
+2023-05-08 22:22:48,446:INFO:Logical Core: 8
+2023-05-08 22:22:48,446:INFO:Checking libraries
+2023-05-08 22:22:48,446:INFO:System:
+2023-05-08 22:22:48,446:INFO:    python: 3.7.15 (default, Nov 24 2022, 18:44:54) [MSC v.1916 64 bit (AMD64)]
+2023-05-08 22:22:48,446:INFO:executable: C:\Users\Anes3\Anaconda3\python.exe
+2023-05-08 22:22:48,446:INFO:   machine: Windows-10-10.0.19041-SP0
+2023-05-08 22:22:48,446:INFO:PyCaret required dependencies:
+2023-05-08 22:22:48,447:INFO:                 pip: 23.1
+2023-05-08 22:22:48,447:INFO:          setuptools: 65.6.3
+2023-05-08 22:22:48,447:INFO:             pycaret: 3.0.0
+2023-05-08 22:22:48,447:INFO:             IPython: 7.31.1
+2023-05-08 22:22:48,447:INFO:          ipywidgets: 7.6.5
+2023-05-08 22:22:48,447:INFO:                tqdm: 4.64.1
+2023-05-08 22:22:48,447:INFO:               numpy: 1.16.5
+2023-05-08 22:22:48,447:INFO:              pandas: 1.3.5
+2023-05-08 22:22:48,448:INFO:              jinja2: 2.11.3
+2023-05-08 22:22:48,448:INFO:               scipy: 1.7.3
+2023-05-08 22:22:48,448:INFO:              joblib: 1.2.0
+2023-05-08 22:22:48,448:INFO:             sklearn: 1.0.2
+2023-05-08 22:22:48,448:INFO:                pyod: 1.0.9
+2023-05-08 22:22:48,448:INFO:            imblearn: 0.10.1
+2023-05-08 22:22:48,448:INFO:   category_encoders: 2.6.0
+2023-05-08 22:22:48,448:INFO:            lightgbm: 3.3.3
+2023-05-08 22:22:48,449:INFO:               numba: 0.56.4
+2023-05-08 22:22:48,449:INFO:            requests: 2.28.1
+2023-05-08 22:22:48,449:INFO:          matplotlib: 3.5.3
+2023-05-08 22:22:48,449:INFO:          scikitplot: 0.3.7
+2023-05-08 22:22:48,449:INFO:         yellowbrick: 1.5
+2023-05-08 22:22:48,449:INFO:              plotly: 5.9.0
+2023-05-08 22:22:48,449:INFO:             kaleido: 0.2.1
+2023-05-08 22:22:48,449:INFO:         statsmodels: 0.13.2
+2023-05-08 22:22:48,449:INFO:              sktime: 0.17.1
+2023-05-08 22:22:48,449:INFO:               tbats: 1.1.3
+2023-05-08 22:22:48,449:INFO:            pmdarima: 2.0.3
+2023-05-08 22:22:48,449:INFO:              psutil: 5.9.0
+2023-05-08 22:22:48,449:INFO:PyCaret optional dependencies:
+2023-05-08 22:22:48,458:INFO:                shap: Not installed
+2023-05-08 22:22:48,458:INFO:           interpret: Not installed
+2023-05-08 22:22:48,458:INFO:                umap: 0.5.3
+2023-05-08 22:22:48,458:INFO:    pandas_profiling: 3.6.1
+2023-05-08 22:22:48,458:INFO:  explainerdashboard: Not installed
+2023-05-08 22:22:48,458:INFO:             autoviz: Not installed
+2023-05-08 22:22:48,458:INFO:           fairlearn: Not installed
+2023-05-08 22:22:48,458:INFO:             xgboost: 1.5.1
+2023-05-08 22:22:48,458:INFO:            catboost: Not installed
+2023-05-08 22:22:48,458:INFO:              kmodes: 0.12.2
+2023-05-08 22:22:48,458:INFO:             mlxtend: 0.19.0
+2023-05-08 22:22:48,458:INFO:       statsforecast: Not installed
+2023-05-08 22:22:48,458:INFO:        tune_sklearn: Not installed
+2023-05-08 22:22:48,458:INFO:                 ray: Not installed
+2023-05-08 22:22:48,458:INFO:            hyperopt: Not installed
+2023-05-08 22:22:48,458:INFO:              optuna: 3.0.5
+2023-05-08 22:22:48,458:INFO:               skopt: Not installed
+2023-05-08 22:22:48,458:INFO:              mlflow: 1.30.0
+2023-05-08 22:22:48,458:INFO:              gradio: Not installed
+2023-05-08 22:22:48,458:INFO:             fastapi: Not installed
+2023-05-08 22:22:48,458:INFO:             uvicorn: Not installed
+2023-05-08 22:22:48,458:INFO:              m2cgen: Not installed
+2023-05-08 22:22:48,458:INFO:           evidently: Not installed
+2023-05-08 22:22:48,459:INFO:               fugue: Not installed
+2023-05-08 22:22:48,459:INFO:           streamlit: Not installed
+2023-05-08 22:22:48,459:INFO:             prophet: Not installed
+2023-05-08 22:22:48,459:INFO:None
+2023-05-08 22:22:48,459:INFO:Set up data.
+2023-05-08 22:23:15,722:INFO:PyCaret RegressionExperiment
+2023-05-08 22:23:15,723:INFO:Logging name: reg-default-name
+2023-05-08 22:23:15,723:INFO:ML Usecase: MLUsecase.REGRESSION
+2023-05-08 22:23:15,723:INFO:version 3.0.0
+2023-05-08 22:23:15,723:INFO:Initializing setup()
+2023-05-08 22:23:15,723:INFO:self.USI: 19c5
+2023-05-08 22:23:15,723:INFO:self._variable_keys: {'X_train', 'n_jobs_param', 'y_test', 'exp_name_log', 'gpu_n_jobs_param', 'target_param', 'fold_shuffle_param', 'logging_param', 'log_plots_param', 'idx', 'exp_id', 'pipeline', 'y', 'seed', 'fold_generator', 'transform_target_param', 'USI', 'X', 'gpu_param', 'X_test', 'html_param', 'y_train', '_available_plots', 'fold_groups_param', 'memory', '_ml_usecase', 'data'}
+2023-05-08 22:23:15,723:INFO:Checking environment
+2023-05-08 22:23:15,723:INFO:python_version: 3.7.15
+2023-05-08 22:23:15,723:INFO:python_build: ('default', 'Nov 24 2022 18:44:54')
+2023-05-08 22:23:15,723:INFO:machine: AMD64
+2023-05-08 22:23:15,723:INFO:platform: Windows-10-10.0.19041-SP0
+2023-05-08 22:23:15,723:INFO:Memory: svmem(total=17092636672, available=7112392704, percent=58.4, used=9980243968, free=7112392704)
+2023-05-08 22:23:15,723:INFO:Physical Core: 8
+2023-05-08 22:23:15,723:INFO:Logical Core: 8
+2023-05-08 22:23:15,723:INFO:Checking libraries
+2023-05-08 22:23:15,723:INFO:System:
+2023-05-08 22:23:15,723:INFO:    python: 3.7.15 (default, Nov 24 2022, 18:44:54) [MSC v.1916 64 bit (AMD64)]
+2023-05-08 22:23:15,723:INFO:executable: C:\Users\Anes3\Anaconda3\python.exe
+2023-05-08 22:23:15,723:INFO:   machine: Windows-10-10.0.19041-SP0
+2023-05-08 22:23:15,723:INFO:PyCaret required dependencies:
+2023-05-08 22:23:15,723:INFO:                 pip: 23.1
+2023-05-08 22:23:15,723:INFO:          setuptools: 65.6.3
+2023-05-08 22:23:15,723:INFO:             pycaret: 3.0.0
+2023-05-08 22:23:15,724:INFO:             IPython: 7.31.1
+2023-05-08 22:23:15,724:INFO:          ipywidgets: 7.6.5
+2023-05-08 22:23:15,724:INFO:                tqdm: 4.64.1
+2023-05-08 22:23:15,724:INFO:               numpy: 1.16.5
+2023-05-08 22:23:15,724:INFO:              pandas: 1.3.5
+2023-05-08 22:23:15,724:INFO:              jinja2: 2.11.3
+2023-05-08 22:23:15,724:INFO:               scipy: 1.7.3
+2023-05-08 22:23:15,724:INFO:              joblib: 1.2.0
+2023-05-08 22:23:15,724:INFO:             sklearn: 1.0.2
+2023-05-08 22:23:15,724:INFO:                pyod: 1.0.9
+2023-05-08 22:23:15,724:INFO:            imblearn: 0.10.1
+2023-05-08 22:23:15,724:INFO:   category_encoders: 2.6.0
+2023-05-08 22:23:15,724:INFO:            lightgbm: 3.3.3
+2023-05-08 22:23:15,724:INFO:               numba: 0.56.4
+2023-05-08 22:23:15,724:INFO:            requests: 2.28.1
+2023-05-08 22:23:15,724:INFO:          matplotlib: 3.5.3
+2023-05-08 22:23:15,724:INFO:          scikitplot: 0.3.7
+2023-05-08 22:23:15,724:INFO:         yellowbrick: 1.5
+2023-05-08 22:23:15,724:INFO:              plotly: 5.9.0
+2023-05-08 22:23:15,724:INFO:             kaleido: 0.2.1
+2023-05-08 22:23:15,724:INFO:         statsmodels: 0.13.2
+2023-05-08 22:23:15,724:INFO:              sktime: 0.17.1
+2023-05-08 22:23:15,724:INFO:               tbats: 1.1.3
+2023-05-08 22:23:15,724:INFO:            pmdarima: 2.0.3
+2023-05-08 22:23:15,724:INFO:              psutil: 5.9.0
+2023-05-08 22:23:15,724:INFO:PyCaret optional dependencies:
+2023-05-08 22:23:15,724:INFO:                shap: Not installed
+2023-05-08 22:23:15,725:INFO:           interpret: Not installed
+2023-05-08 22:23:15,725:INFO:                umap: 0.5.3
+2023-05-08 22:23:15,725:INFO:    pandas_profiling: 3.6.1
+2023-05-08 22:23:15,725:INFO:  explainerdashboard: Not installed
+2023-05-08 22:23:15,725:INFO:             autoviz: Not installed
+2023-05-08 22:23:15,725:INFO:           fairlearn: Not installed
+2023-05-08 22:23:15,725:INFO:             xgboost: 1.5.1
+2023-05-08 22:23:15,725:INFO:            catboost: Not installed
+2023-05-08 22:23:15,725:INFO:              kmodes: 0.12.2
+2023-05-08 22:23:15,725:INFO:             mlxtend: 0.19.0
+2023-05-08 22:23:15,725:INFO:       statsforecast: Not installed
+2023-05-08 22:23:15,725:INFO:        tune_sklearn: Not installed
+2023-05-08 22:23:15,725:INFO:                 ray: Not installed
+2023-05-08 22:23:15,725:INFO:            hyperopt: Not installed
+2023-05-08 22:23:15,725:INFO:              optuna: 3.0.5
+2023-05-08 22:23:15,725:INFO:               skopt: Not installed
+2023-05-08 22:23:15,725:INFO:              mlflow: 1.30.0
+2023-05-08 22:23:15,725:INFO:              gradio: Not installed
+2023-05-08 22:23:15,725:INFO:             fastapi: Not installed
+2023-05-08 22:23:15,725:INFO:             uvicorn: Not installed
+2023-05-08 22:23:15,725:INFO:              m2cgen: Not installed
+2023-05-08 22:23:15,725:INFO:           evidently: Not installed
+2023-05-08 22:23:15,725:INFO:               fugue: Not installed
+2023-05-08 22:23:15,725:INFO:           streamlit: Not installed
+2023-05-08 22:23:15,725:INFO:             prophet: Not installed
+2023-05-08 22:23:15,725:INFO:None
+2023-05-08 22:23:15,725:INFO:Set up data.
+2023-05-08 22:25:59,840:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-08 22:25:59,840:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-08 22:25:59,841:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-08 22:25:59,841:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-08 22:26:00,278:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-05-08 22:26:23,596:INFO:PyCaret RegressionExperiment
+2023-05-08 22:26:23,596:INFO:Logging name: reg-default-name
+2023-05-08 22:26:23,596:INFO:ML Usecase: MLUsecase.REGRESSION
+2023-05-08 22:26:23,596:INFO:version 3.0.0
+2023-05-08 22:26:23,596:INFO:Initializing setup()
+2023-05-08 22:26:23,596:INFO:self.USI: 41e5
+2023-05-08 22:26:23,596:INFO:self._variable_keys: {'pipeline', 'gpu_param', 'exp_name_log', 'log_plots_param', 'n_jobs_param', 'html_param', 'transform_target_param', 'logging_param', 'X_test', 'X_train', 'fold_generator', 'y', 'gpu_n_jobs_param', 'target_param', 'USI', 'y_test', '_ml_usecase', 'seed', '_available_plots', 'memory', 'data', 'idx', 'X', 'fold_shuffle_param', 'fold_groups_param', 'exp_id', 'y_train'}
+2023-05-08 22:26:23,596:INFO:Checking environment
+2023-05-08 22:26:23,596:INFO:python_version: 3.7.15
+2023-05-08 22:26:23,596:INFO:python_build: ('default', 'Nov 24 2022 18:44:54')
+2023-05-08 22:26:23,596:INFO:machine: AMD64
+2023-05-08 22:26:23,596:INFO:platform: Windows-10-10.0.19041-SP0
+2023-05-08 22:26:23,596:INFO:Memory: svmem(total=17092636672, available=7231692800, percent=57.7, used=9860943872, free=7231692800)
+2023-05-08 22:26:23,596:INFO:Physical Core: 8
+2023-05-08 22:26:23,596:INFO:Logical Core: 8
+2023-05-08 22:26:23,597:INFO:Checking libraries
+2023-05-08 22:26:23,597:INFO:System:
+2023-05-08 22:26:23,597:INFO:    python: 3.7.15 (default, Nov 24 2022, 18:44:54) [MSC v.1916 64 bit (AMD64)]
+2023-05-08 22:26:23,597:INFO:executable: C:\Users\Anes3\Anaconda3\python.exe
+2023-05-08 22:26:23,597:INFO:   machine: Windows-10-10.0.19041-SP0
+2023-05-08 22:26:23,597:INFO:PyCaret required dependencies:
+2023-05-08 22:26:23,597:INFO:                 pip: 23.1
+2023-05-08 22:26:23,597:INFO:          setuptools: 65.6.3
+2023-05-08 22:26:23,597:INFO:             pycaret: 3.0.0
+2023-05-08 22:26:23,597:INFO:             IPython: 7.31.1
+2023-05-08 22:26:23,597:INFO:          ipywidgets: 7.6.5
+2023-05-08 22:26:23,597:INFO:                tqdm: 4.64.1
+2023-05-08 22:26:23,597:INFO:               numpy: 1.16.5
+2023-05-08 22:26:23,597:INFO:              pandas: 1.3.5
+2023-05-08 22:26:23,597:INFO:              jinja2: 2.11.3
+2023-05-08 22:26:23,597:INFO:               scipy: 1.7.3
+2023-05-08 22:26:23,597:INFO:              joblib: 1.2.0
+2023-05-08 22:26:23,597:INFO:             sklearn: 1.0.2
+2023-05-08 22:26:23,597:INFO:                pyod: 1.0.9
+2023-05-08 22:26:23,597:INFO:            imblearn: 0.10.1
+2023-05-08 22:26:23,597:INFO:   category_encoders: 2.6.0
+2023-05-08 22:26:23,597:INFO:            lightgbm: 3.3.3
+2023-05-08 22:26:23,597:INFO:               numba: 0.56.4
+2023-05-08 22:26:23,597:INFO:            requests: 2.28.1
+2023-05-08 22:26:23,597:INFO:          matplotlib: 3.5.3
+2023-05-08 22:26:23,597:INFO:          scikitplot: 0.3.7
+2023-05-08 22:26:23,598:INFO:         yellowbrick: 1.5
+2023-05-08 22:26:23,598:INFO:              plotly: 5.9.0
+2023-05-08 22:26:23,598:INFO:             kaleido: 0.2.1
+2023-05-08 22:26:23,598:INFO:         statsmodels: 0.13.2
+2023-05-08 22:26:23,598:INFO:              sktime: 0.17.1
+2023-05-08 22:26:23,598:INFO:               tbats: 1.1.3
+2023-05-08 22:26:23,598:INFO:            pmdarima: 2.0.3
+2023-05-08 22:26:23,598:INFO:              psutil: 5.9.0
+2023-05-08 22:26:23,598:INFO:PyCaret optional dependencies:
+2023-05-08 22:26:23,606:INFO:                shap: Not installed
+2023-05-08 22:26:23,606:INFO:           interpret: Not installed
+2023-05-08 22:26:23,606:INFO:                umap: 0.5.3
+2023-05-08 22:26:23,606:INFO:    pandas_profiling: 3.6.1
+2023-05-08 22:26:23,606:INFO:  explainerdashboard: Not installed
+2023-05-08 22:26:23,606:INFO:             autoviz: Not installed
+2023-05-08 22:26:23,606:INFO:           fairlearn: Not installed
+2023-05-08 22:26:23,606:INFO:             xgboost: 1.5.1
+2023-05-08 22:26:23,606:INFO:            catboost: Not installed
+2023-05-08 22:26:23,606:INFO:              kmodes: 0.12.2
+2023-05-08 22:26:23,606:INFO:             mlxtend: 0.19.0
+2023-05-08 22:26:23,606:INFO:       statsforecast: Not installed
+2023-05-08 22:26:23,606:INFO:        tune_sklearn: Not installed
+2023-05-08 22:26:23,606:INFO:                 ray: Not installed
+2023-05-08 22:26:23,607:INFO:            hyperopt: Not installed
+2023-05-08 22:26:23,607:INFO:              optuna: 3.0.5
+2023-05-08 22:26:23,607:INFO:               skopt: Not installed
+2023-05-08 22:26:23,607:INFO:              mlflow: 1.30.0
+2023-05-08 22:26:23,607:INFO:              gradio: Not installed
+2023-05-08 22:26:23,607:INFO:             fastapi: Not installed
+2023-05-08 22:26:23,607:INFO:             uvicorn: Not installed
+2023-05-08 22:26:23,607:INFO:              m2cgen: Not installed
+2023-05-08 22:26:23,607:INFO:           evidently: Not installed
+2023-05-08 22:26:23,607:INFO:               fugue: Not installed
+2023-05-08 22:26:23,607:INFO:           streamlit: Not installed
+2023-05-08 22:26:23,607:INFO:             prophet: Not installed
+2023-05-08 22:26:23,607:INFO:None
+2023-05-08 22:26:23,607:INFO:Set up data.
+2023-05-08 22:26:23,613:INFO:Set up train/test split.
+2023-05-08 22:26:23,618:INFO:Set up index.
+2023-05-08 22:26:23,618:INFO:Set up folding strategy.
+2023-05-08 22:26:23,618:INFO:Assigning column types.
+2023-05-08 22:26:23,623:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2023-05-08 22:26:23,623:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2023-05-08 22:26:23,626:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2023-05-08 22:26:23,630:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-05-08 22:26:23,678:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-05-08 22:26:23,713:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-05-08 22:26:23,713:INFO:Soft dependency imported: xgboost: 1.5.1
+2023-05-08 22:26:23,715:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-05-08 22:26:23,715:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2023-05-08 22:26:23,719:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2023-05-08 22:26:23,723:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-05-08 22:26:23,769:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-05-08 22:26:23,804:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-05-08 22:26:23,804:INFO:Soft dependency imported: xgboost: 1.5.1
+2023-05-08 22:26:23,806:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-05-08 22:26:23,806:INFO:Engine successfully changes for model 'lasso' to 'sklearn'.
+2023-05-08 22:26:23,810:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2023-05-08 22:26:23,813:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-05-08 22:26:23,858:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-05-08 22:26:23,892:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-05-08 22:26:23,893:INFO:Soft dependency imported: xgboost: 1.5.1
+2023-05-08 22:26:23,895:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-05-08 22:26:23,898:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2023-05-08 22:26:23,903:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-05-08 22:26:23,948:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-05-08 22:26:23,983:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-05-08 22:26:23,984:INFO:Soft dependency imported: xgboost: 1.5.1
+2023-05-08 22:26:23,986:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-05-08 22:26:23,986:INFO:Engine successfully changes for model 'ridge' to 'sklearn'.
+2023-05-08 22:26:23,993:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-05-08 22:26:24,039:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-05-08 22:26:24,073:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-05-08 22:26:24,073:INFO:Soft dependency imported: xgboost: 1.5.1
+2023-05-08 22:26:24,075:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-05-08 22:26:24,082:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-05-08 22:26:24,127:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-05-08 22:26:24,163:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-05-08 22:26:24,164:INFO:Soft dependency imported: xgboost: 1.5.1
+2023-05-08 22:26:24,166:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-05-08 22:26:24,166:INFO:Engine successfully changes for model 'en' to 'sklearn'.
+2023-05-08 22:26:24,221:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-05-08 22:26:24,256:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-05-08 22:26:24,257:INFO:Soft dependency imported: xgboost: 1.5.1
+2023-05-08 22:26:24,259:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-05-08 22:26:24,313:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-05-08 22:26:24,348:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-05-08 22:26:24,348:INFO:Soft dependency imported: xgboost: 1.5.1
+2023-05-08 22:26:24,350:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-05-08 22:26:24,351:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2023-05-08 22:26:24,404:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-05-08 22:26:24,440:INFO:Soft dependency imported: xgboost: 1.5.1
+2023-05-08 22:26:24,442:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-05-08 22:26:24,495:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-05-08 22:26:24,530:INFO:Soft dependency imported: xgboost: 1.5.1
+2023-05-08 22:26:24,533:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-05-08 22:26:24,533:INFO:Engine successfully changes for model 'svm' to 'sklearn'.
+2023-05-08 22:26:24,623:INFO:Soft dependency imported: xgboost: 1.5.1
+2023-05-08 22:26:24,625:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-05-08 22:26:24,719:INFO:Soft dependency imported: xgboost: 1.5.1
+2023-05-08 22:26:24,721:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-05-08 22:26:24,729:INFO:Preparing preprocessing pipeline...
+2023-05-08 22:26:24,729:INFO:Set up simple imputation.
+2023-05-08 22:26:24,748:INFO:Finished creating preprocessing pipeline.
+2023-05-08 22:26:24,752:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\Anes3\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['clonesize', 'honeybee', 'bumbles',
+                                             'andrena', 'osmia',
+                                             'MaxOfUpperTRange',
+                                             'AverageRainingDays', 'fruitset',
+                                             'fruitmass', 'seeds'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent')))])
+2023-05-08 22:26:24,752:INFO:Creating final display dataframe.
+2023-05-08 22:26:24,799:INFO:Setup _display_container:                     Description             Value
+0                    Session id              3209
+1                        Target             yield
+2                   Target type        Regression
+3           Original data shape       (16066, 11)
+4        Transformed data shape       (16066, 11)
+5   Transformed train set shape       (11246, 11)
+6    Transformed test set shape        (4820, 11)
+7              Numeric features                10
+8                    Preprocess              True
+9               Imputation type            simple
+10           Numeric imputation              mean
+11       Categorical imputation              mode
+12               Fold Generator             KFold
+13                  Fold Number                10
+14                     CPU Jobs                -1
+15                      Use GPU             False
+16               Log Experiment             False
+17              Experiment Name  reg-default-name
+18                          USI              41e5
+2023-05-08 22:26:24,894:INFO:Soft dependency imported: xgboost: 1.5.1
+2023-05-08 22:26:24,896:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-05-08 22:26:25,006:INFO:Soft dependency imported: xgboost: 1.5.1
+2023-05-08 22:26:25,008:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-05-08 22:26:25,008:INFO:setup() successfully completed in 1.49s...............
+2023-05-08 22:26:26,115:INFO:Initializing compare_models()
+2023-05-08 22:26:26,115:INFO:compare_models(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, include=None, fold=None, round=4, cross_validation=True, sort=R2, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, 'include': None, 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'R2', 'n_select': 1, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.regression.oop.RegressionExperiment'>}, exclude=None)
+2023-05-08 22:26:26,116:INFO:Checking exceptions
+2023-05-08 22:26:26,118:INFO:Preparing display monitor
+2023-05-08 22:26:26,144:INFO:Initializing Linear Regression
+2023-05-08 22:26:26,145:INFO:Total runtime is 1.662572224934896e-05 minutes
+2023-05-08 22:26:26,148:INFO:SubProcess create_model() called ==================================
+2023-05-08 22:26:26,149:INFO:Initializing create_model()
+2023-05-08 22:26:26,149:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, estimator=lr, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001DCF3EDEBC8>, model_only=True, return_train_score=False, kwargs={})
+2023-05-08 22:26:26,149:INFO:Checking exceptions
+2023-05-08 22:26:26,149:INFO:Importing libraries
+2023-05-08 22:26:26,149:INFO:Copying training dataset
+2023-05-08 22:26:26,154:INFO:Defining folds
+2023-05-08 22:26:26,154:INFO:Declaring metric variables
+2023-05-08 22:26:26,157:INFO:Importing untrained model
+2023-05-08 22:26:26,160:INFO:Linear Regression Imported successfully
+2023-05-08 22:26:26,167:INFO:Starting cross validation
+2023-05-08 22:26:26,173:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-05-08 22:26:30,721:INFO:Calculating mean and std
+2023-05-08 22:26:30,722:INFO:Creating metrics dataframe
+2023-05-08 22:26:30,824:INFO:Uploading results into container
+2023-05-08 22:26:30,825:INFO:Uploading model into container now
+2023-05-08 22:26:30,825:INFO:_master_model_container: 1
+2023-05-08 22:26:30,825:INFO:_display_container: 2
+2023-05-08 22:26:30,826:INFO:LinearRegression(n_jobs=-1)
+2023-05-08 22:26:30,826:INFO:create_model() successfully completed......................................
+2023-05-08 22:26:30,894:INFO:SubProcess create_model() end ==================================
+2023-05-08 22:26:30,894:INFO:Creating metrics dataframe
+2023-05-08 22:26:30,904:INFO:Initializing Lasso Regression
+2023-05-08 22:26:30,904:INFO:Total runtime is 0.07934561570485434 minutes
+2023-05-08 22:26:30,908:INFO:SubProcess create_model() called ==================================
+2023-05-08 22:26:30,908:INFO:Initializing create_model()
+2023-05-08 22:26:30,908:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, estimator=lasso, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001DCF3EDEBC8>, model_only=True, return_train_score=False, kwargs={})
+2023-05-08 22:26:30,908:INFO:Checking exceptions
+2023-05-08 22:26:30,908:INFO:Importing libraries
+2023-05-08 22:26:30,908:INFO:Copying training dataset
+2023-05-08 22:26:30,913:INFO:Defining folds
+2023-05-08 22:26:30,913:INFO:Declaring metric variables
+2023-05-08 22:26:30,916:INFO:Importing untrained model
+2023-05-08 22:26:30,919:INFO:Lasso Regression Imported successfully
+2023-05-08 22:26:30,926:INFO:Starting cross validation
+2023-05-08 22:26:30,926:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-05-08 22:26:31,710:INFO:Calculating mean and std
+2023-05-08 22:26:31,711:INFO:Creating metrics dataframe
+2023-05-08 22:26:31,817:INFO:Uploading results into container
+2023-05-08 22:26:31,818:INFO:Uploading model into container now
+2023-05-08 22:26:31,818:INFO:_master_model_container: 2
+2023-05-08 22:26:31,818:INFO:_display_container: 2
+2023-05-08 22:26:31,818:INFO:Lasso(random_state=3209)
+2023-05-08 22:26:31,818:INFO:create_model() successfully completed......................................
+2023-05-08 22:26:31,879:INFO:SubProcess create_model() end ==================================
+2023-05-08 22:26:31,879:INFO:Creating metrics dataframe
+2023-05-08 22:26:31,890:INFO:Initializing Ridge Regression
+2023-05-08 22:26:31,890:INFO:Total runtime is 0.09576748212178549 minutes
+2023-05-08 22:26:31,893:INFO:SubProcess create_model() called ==================================
+2023-05-08 22:26:31,894:INFO:Initializing create_model()
+2023-05-08 22:26:31,894:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, estimator=ridge, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001DCF3EDEBC8>, model_only=True, return_train_score=False, kwargs={})
+2023-05-08 22:26:31,894:INFO:Checking exceptions
+2023-05-08 22:26:31,894:INFO:Importing libraries
+2023-05-08 22:26:31,894:INFO:Copying training dataset
+2023-05-08 22:26:31,898:INFO:Defining folds
+2023-05-08 22:26:31,898:INFO:Declaring metric variables
+2023-05-08 22:26:31,901:INFO:Importing untrained model
+2023-05-08 22:26:31,904:INFO:Ridge Regression Imported successfully
+2023-05-08 22:26:31,910:INFO:Starting cross validation
+2023-05-08 22:26:31,911:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-05-08 22:26:32,699:INFO:Calculating mean and std
+2023-05-08 22:26:32,700:INFO:Creating metrics dataframe
+2023-05-08 22:26:32,802:INFO:Uploading results into container
+2023-05-08 22:26:32,802:INFO:Uploading model into container now
+2023-05-08 22:26:32,803:INFO:_master_model_container: 3
+2023-05-08 22:26:32,803:INFO:_display_container: 2
+2023-05-08 22:26:32,803:INFO:Ridge(random_state=3209)
+2023-05-08 22:26:32,803:INFO:create_model() successfully completed......................................
+2023-05-08 22:26:32,865:INFO:SubProcess create_model() end ==================================
+2023-05-08 22:26:32,866:INFO:Creating metrics dataframe
+2023-05-08 22:26:32,877:INFO:Initializing Elastic Net
+2023-05-08 22:26:32,877:INFO:Total runtime is 0.11222179333368937 minutes
+2023-05-08 22:26:32,880:INFO:SubProcess create_model() called ==================================
+2023-05-08 22:26:32,881:INFO:Initializing create_model()
+2023-05-08 22:26:32,881:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, estimator=en, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001DCF3EDEBC8>, model_only=True, return_train_score=False, kwargs={})
+2023-05-08 22:26:32,881:INFO:Checking exceptions
+2023-05-08 22:26:32,881:INFO:Importing libraries
+2023-05-08 22:26:32,881:INFO:Copying training dataset
+2023-05-08 22:26:32,886:INFO:Defining folds
+2023-05-08 22:26:32,886:INFO:Declaring metric variables
+2023-05-08 22:26:32,889:INFO:Importing untrained model
+2023-05-08 22:26:32,892:INFO:Elastic Net Imported successfully
+2023-05-08 22:26:32,898:INFO:Starting cross validation
+2023-05-08 22:26:32,899:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-05-08 22:26:33,651:INFO:Calculating mean and std
+2023-05-08 22:26:33,652:INFO:Creating metrics dataframe
+2023-05-08 22:26:33,758:INFO:Uploading results into container
+2023-05-08 22:26:33,758:INFO:Uploading model into container now
+2023-05-08 22:26:33,759:INFO:_master_model_container: 4
+2023-05-08 22:26:33,759:INFO:_display_container: 2
+2023-05-08 22:26:33,759:INFO:ElasticNet(random_state=3209)
+2023-05-08 22:26:33,759:INFO:create_model() successfully completed......................................
+2023-05-08 22:26:33,818:INFO:SubProcess create_model() end ==================================
+2023-05-08 22:26:33,818:INFO:Creating metrics dataframe
+2023-05-08 22:26:33,829:INFO:Initializing Least Angle Regression
+2023-05-08 22:26:33,830:INFO:Total runtime is 0.12811129887898762 minutes
+2023-05-08 22:26:33,833:INFO:SubProcess create_model() called ==================================
+2023-05-08 22:26:33,833:INFO:Initializing create_model()
+2023-05-08 22:26:33,833:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, estimator=lar, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001DCF3EDEBC8>, model_only=True, return_train_score=False, kwargs={})
+2023-05-08 22:26:33,833:INFO:Checking exceptions
+2023-05-08 22:26:33,833:INFO:Importing libraries
+2023-05-08 22:26:33,833:INFO:Copying training dataset
+2023-05-08 22:26:33,838:INFO:Defining folds
+2023-05-08 22:26:33,838:INFO:Declaring metric variables
+2023-05-08 22:26:33,841:INFO:Importing untrained model
+2023-05-08 22:26:33,844:INFO:Least Angle Regression Imported successfully
+2023-05-08 22:26:33,849:INFO:Starting cross validation
+2023-05-08 22:26:33,851:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-05-08 22:26:33,887:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  FutureWarning,
+
+2023-05-08 22:26:33,892:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  FutureWarning,
+
+2023-05-08 22:26:33,898:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  FutureWarning,
+
+2023-05-08 22:26:33,915:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  FutureWarning,
+
+2023-05-08 22:26:33,915:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  FutureWarning,
+
+2023-05-08 22:26:33,917:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  FutureWarning,
+
+2023-05-08 22:26:33,923:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  FutureWarning,
+
+2023-05-08 22:26:33,929:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  FutureWarning,
+
+2023-05-08 22:26:34,053:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  FutureWarning,
+
+2023-05-08 22:26:34,060:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  FutureWarning,
+
+2023-05-08 22:26:34,604:INFO:Calculating mean and std
+2023-05-08 22:26:34,605:INFO:Creating metrics dataframe
+2023-05-08 22:26:34,707:INFO:Uploading results into container
+2023-05-08 22:26:34,707:INFO:Uploading model into container now
+2023-05-08 22:26:34,707:INFO:_master_model_container: 5
+2023-05-08 22:26:34,707:INFO:_display_container: 2
+2023-05-08 22:26:34,708:INFO:Lars(random_state=3209)
+2023-05-08 22:26:34,708:INFO:create_model() successfully completed......................................
+2023-05-08 22:26:34,770:INFO:SubProcess create_model() end ==================================
+2023-05-08 22:26:34,770:INFO:Creating metrics dataframe
+2023-05-08 22:26:34,781:INFO:Initializing Lasso Least Angle Regression
+2023-05-08 22:26:34,781:INFO:Total runtime is 0.14394633769989013 minutes
+2023-05-08 22:26:34,784:INFO:SubProcess create_model() called ==================================
+2023-05-08 22:26:34,785:INFO:Initializing create_model()
+2023-05-08 22:26:34,785:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, estimator=llar, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001DCF3EDEBC8>, model_only=True, return_train_score=False, kwargs={})
+2023-05-08 22:26:34,785:INFO:Checking exceptions
+2023-05-08 22:26:34,785:INFO:Importing libraries
+2023-05-08 22:26:34,785:INFO:Copying training dataset
+2023-05-08 22:26:34,789:INFO:Defining folds
+2023-05-08 22:26:34,790:INFO:Declaring metric variables
+2023-05-08 22:26:34,792:INFO:Importing untrained model
+2023-05-08 22:26:34,796:INFO:Lasso Least Angle Regression Imported successfully
+2023-05-08 22:26:34,802:INFO:Starting cross validation
+2023-05-08 22:26:34,803:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-05-08 22:26:34,844:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  FutureWarning,
+
+2023-05-08 22:26:34,850:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  FutureWarning,
+
+2023-05-08 22:26:34,856:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  FutureWarning,
+
+2023-05-08 22:26:34,863:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  FutureWarning,
+
+2023-05-08 22:26:34,868:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  FutureWarning,
+
+2023-05-08 22:26:34,874:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  FutureWarning,
+
+2023-05-08 22:26:34,880:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  FutureWarning,
+
+2023-05-08 22:26:34,886:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  FutureWarning,
+
+2023-05-08 22:26:34,979:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  FutureWarning,
+
+2023-05-08 22:26:34,993:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  FutureWarning,
+
+2023-05-08 22:26:35,578:INFO:Calculating mean and std
+2023-05-08 22:26:35,579:INFO:Creating metrics dataframe
+2023-05-08 22:26:35,677:INFO:Uploading results into container
+2023-05-08 22:26:35,678:INFO:Uploading model into container now
+2023-05-08 22:26:35,678:INFO:_master_model_container: 6
+2023-05-08 22:26:35,678:INFO:_display_container: 2
+2023-05-08 22:26:35,678:INFO:LassoLars(random_state=3209)
+2023-05-08 22:26:35,678:INFO:create_model() successfully completed......................................
+2023-05-08 22:26:35,738:INFO:SubProcess create_model() end ==================================
+2023-05-08 22:26:35,738:INFO:Creating metrics dataframe
+2023-05-08 22:26:35,749:INFO:Initializing Orthogonal Matching Pursuit
+2023-05-08 22:26:35,749:INFO:Total runtime is 0.1600845654805501 minutes
+2023-05-08 22:26:35,752:INFO:SubProcess create_model() called ==================================
+2023-05-08 22:26:35,753:INFO:Initializing create_model()
+2023-05-08 22:26:35,753:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, estimator=omp, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001DCF3EDEBC8>, model_only=True, return_train_score=False, kwargs={})
+2023-05-08 22:26:35,753:INFO:Checking exceptions
+2023-05-08 22:26:35,753:INFO:Importing libraries
+2023-05-08 22:26:35,753:INFO:Copying training dataset
+2023-05-08 22:26:35,758:INFO:Defining folds
+2023-05-08 22:26:35,758:INFO:Declaring metric variables
+2023-05-08 22:26:35,761:INFO:Importing untrained model
+2023-05-08 22:26:35,765:INFO:Orthogonal Matching Pursuit Imported successfully
+2023-05-08 22:26:35,771:INFO:Starting cross validation
+2023-05-08 22:26:35,772:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-05-08 22:26:35,809:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  FutureWarning,
+
+2023-05-08 22:26:35,816:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  FutureWarning,
+
+2023-05-08 22:26:35,821:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  FutureWarning,
+
+2023-05-08 22:26:35,829:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  FutureWarning,
+
+2023-05-08 22:26:35,841:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  FutureWarning,
+
+2023-05-08 22:26:35,847:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  FutureWarning,
+
+2023-05-08 22:26:35,849:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  FutureWarning,
+
+2023-05-08 22:26:35,853:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  FutureWarning,
+
+2023-05-08 22:26:35,962:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  FutureWarning,
+
+2023-05-08 22:26:35,963:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\sklearn\linear_model\_base.py:138: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  FutureWarning,
+
+2023-05-08 22:26:36,542:INFO:Calculating mean and std
+2023-05-08 22:26:36,542:INFO:Creating metrics dataframe
+2023-05-08 22:26:36,645:INFO:Uploading results into container
+2023-05-08 22:26:36,646:INFO:Uploading model into container now
+2023-05-08 22:26:36,646:INFO:_master_model_container: 7
+2023-05-08 22:26:36,646:INFO:_display_container: 2
+2023-05-08 22:26:36,646:INFO:OrthogonalMatchingPursuit()
+2023-05-08 22:26:36,647:INFO:create_model() successfully completed......................................
+2023-05-08 22:26:36,711:INFO:SubProcess create_model() end ==================================
+2023-05-08 22:26:36,711:INFO:Creating metrics dataframe
+2023-05-08 22:26:36,723:INFO:Initializing Bayesian Ridge
+2023-05-08 22:26:36,723:INFO:Total runtime is 0.17631241083145138 minutes
+2023-05-08 22:26:36,724:INFO:SubProcess create_model() called ==================================
+2023-05-08 22:26:36,724:INFO:Initializing create_model()
+2023-05-08 22:26:36,724:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, estimator=br, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001DCF3EDEBC8>, model_only=True, return_train_score=False, kwargs={})
+2023-05-08 22:26:36,726:INFO:Checking exceptions
+2023-05-08 22:26:36,726:INFO:Importing libraries
+2023-05-08 22:26:36,726:INFO:Copying training dataset
+2023-05-08 22:26:36,730:INFO:Defining folds
+2023-05-08 22:26:36,730:INFO:Declaring metric variables
+2023-05-08 22:26:36,732:INFO:Importing untrained model
+2023-05-08 22:26:36,736:INFO:Bayesian Ridge Imported successfully
+2023-05-08 22:26:36,742:INFO:Starting cross validation
+2023-05-08 22:26:36,743:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-05-08 22:26:37,527:INFO:Calculating mean and std
+2023-05-08 22:26:37,528:INFO:Creating metrics dataframe
+2023-05-08 22:26:37,634:INFO:Uploading results into container
+2023-05-08 22:26:37,635:INFO:Uploading model into container now
+2023-05-08 22:26:37,635:INFO:_master_model_container: 8
+2023-05-08 22:26:37,635:INFO:_display_container: 2
+2023-05-08 22:26:37,635:INFO:BayesianRidge()
+2023-05-08 22:26:37,635:INFO:create_model() successfully completed......................................
+2023-05-08 22:26:37,698:INFO:SubProcess create_model() end ==================================
+2023-05-08 22:26:37,699:INFO:Creating metrics dataframe
+2023-05-08 22:26:37,711:INFO:Initializing Passive Aggressive Regressor
+2023-05-08 22:26:37,711:INFO:Total runtime is 0.19278268019358313 minutes
+2023-05-08 22:26:37,714:INFO:SubProcess create_model() called ==================================
+2023-05-08 22:26:37,714:INFO:Initializing create_model()
+2023-05-08 22:26:37,714:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, estimator=par, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001DCF3EDEBC8>, model_only=True, return_train_score=False, kwargs={})
+2023-05-08 22:26:37,715:INFO:Checking exceptions
+2023-05-08 22:26:37,715:INFO:Importing libraries
+2023-05-08 22:26:37,715:INFO:Copying training dataset
+2023-05-08 22:26:37,719:INFO:Defining folds
+2023-05-08 22:26:37,719:INFO:Declaring metric variables
+2023-05-08 22:26:37,722:INFO:Importing untrained model
+2023-05-08 22:26:37,725:INFO:Passive Aggressive Regressor Imported successfully
+2023-05-08 22:26:37,731:INFO:Starting cross validation
+2023-05-08 22:26:37,732:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-05-08 22:26:38,509:INFO:Calculating mean and std
+2023-05-08 22:26:38,509:INFO:Creating metrics dataframe
+2023-05-08 22:26:38,616:INFO:Uploading results into container
+2023-05-08 22:26:38,617:INFO:Uploading model into container now
+2023-05-08 22:26:38,617:INFO:_master_model_container: 9
+2023-05-08 22:26:38,617:INFO:_display_container: 2
+2023-05-08 22:26:38,617:INFO:PassiveAggressiveRegressor(random_state=3209)
+2023-05-08 22:26:38,617:INFO:create_model() successfully completed......................................
+2023-05-08 22:26:38,680:INFO:SubProcess create_model() end ==================================
+2023-05-08 22:26:38,681:INFO:Creating metrics dataframe
+2023-05-08 22:26:38,693:INFO:Initializing Huber Regressor
+2023-05-08 22:26:38,693:INFO:Total runtime is 0.20915755828221635 minutes
+2023-05-08 22:26:38,696:INFO:SubProcess create_model() called ==================================
+2023-05-08 22:26:38,697:INFO:Initializing create_model()
+2023-05-08 22:26:38,697:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, estimator=huber, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001DCF3EDEBC8>, model_only=True, return_train_score=False, kwargs={})
+2023-05-08 22:26:38,697:INFO:Checking exceptions
+2023-05-08 22:26:38,697:INFO:Importing libraries
+2023-05-08 22:26:38,697:INFO:Copying training dataset
+2023-05-08 22:26:38,701:INFO:Defining folds
+2023-05-08 22:26:38,701:INFO:Declaring metric variables
+2023-05-08 22:26:38,704:INFO:Importing untrained model
+2023-05-08 22:26:38,707:INFO:Huber Regressor Imported successfully
+2023-05-08 22:26:38,715:INFO:Starting cross validation
+2023-05-08 22:26:38,715:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-05-08 22:26:39,524:INFO:Calculating mean and std
+2023-05-08 22:26:39,524:INFO:Creating metrics dataframe
+2023-05-08 22:26:39,624:INFO:Uploading results into container
+2023-05-08 22:26:39,625:INFO:Uploading model into container now
+2023-05-08 22:26:39,625:INFO:_master_model_container: 10
+2023-05-08 22:26:39,625:INFO:_display_container: 2
+2023-05-08 22:26:39,625:INFO:HuberRegressor()
+2023-05-08 22:26:39,625:INFO:create_model() successfully completed......................................
+2023-05-08 22:26:39,685:INFO:SubProcess create_model() end ==================================
+2023-05-08 22:26:39,685:INFO:Creating metrics dataframe
+2023-05-08 22:26:39,697:INFO:Initializing K Neighbors Regressor
+2023-05-08 22:26:39,697:INFO:Total runtime is 0.22588961521784462 minutes
+2023-05-08 22:26:39,700:INFO:SubProcess create_model() called ==================================
+2023-05-08 22:26:39,700:INFO:Initializing create_model()
+2023-05-08 22:26:39,700:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, estimator=knn, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001DCF3EDEBC8>, model_only=True, return_train_score=False, kwargs={})
+2023-05-08 22:26:39,700:INFO:Checking exceptions
+2023-05-08 22:26:39,700:INFO:Importing libraries
+2023-05-08 22:26:39,700:INFO:Copying training dataset
+2023-05-08 22:26:39,705:INFO:Defining folds
+2023-05-08 22:26:39,705:INFO:Declaring metric variables
+2023-05-08 22:26:39,708:INFO:Importing untrained model
+2023-05-08 22:26:39,713:INFO:K Neighbors Regressor Imported successfully
+2023-05-08 22:26:39,721:INFO:Starting cross validation
+2023-05-08 22:26:39,722:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-05-08 22:26:40,630:INFO:Calculating mean and std
+2023-05-08 22:26:40,630:INFO:Creating metrics dataframe
+2023-05-08 22:26:40,729:INFO:Uploading results into container
+2023-05-08 22:26:40,730:INFO:Uploading model into container now
+2023-05-08 22:26:40,730:INFO:_master_model_container: 11
+2023-05-08 22:26:40,730:INFO:_display_container: 2
+2023-05-08 22:26:40,730:INFO:KNeighborsRegressor(n_jobs=-1)
+2023-05-08 22:26:40,730:INFO:create_model() successfully completed......................................
+2023-05-08 22:26:40,792:INFO:SubProcess create_model() end ==================================
+2023-05-08 22:26:40,792:INFO:Creating metrics dataframe
+2023-05-08 22:26:40,804:INFO:Initializing Decision Tree Regressor
+2023-05-08 22:26:40,804:INFO:Total runtime is 0.24433801174163816 minutes
+2023-05-08 22:26:40,807:INFO:SubProcess create_model() called ==================================
+2023-05-08 22:26:40,807:INFO:Initializing create_model()
+2023-05-08 22:26:40,807:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, estimator=dt, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001DCF3EDEBC8>, model_only=True, return_train_score=False, kwargs={})
+2023-05-08 22:26:40,807:INFO:Checking exceptions
+2023-05-08 22:26:40,807:INFO:Importing libraries
+2023-05-08 22:26:40,807:INFO:Copying training dataset
+2023-05-08 22:26:40,812:INFO:Defining folds
+2023-05-08 22:26:40,812:INFO:Declaring metric variables
+2023-05-08 22:26:40,815:INFO:Importing untrained model
+2023-05-08 22:26:40,819:INFO:Decision Tree Regressor Imported successfully
+2023-05-08 22:26:40,825:INFO:Starting cross validation
+2023-05-08 22:26:40,826:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-05-08 22:26:41,669:INFO:Calculating mean and std
+2023-05-08 22:26:41,670:INFO:Creating metrics dataframe
+2023-05-08 22:26:41,777:INFO:Uploading results into container
+2023-05-08 22:26:41,778:INFO:Uploading model into container now
+2023-05-08 22:26:41,778:INFO:_master_model_container: 12
+2023-05-08 22:26:41,778:INFO:_display_container: 2
+2023-05-08 22:26:41,778:INFO:DecisionTreeRegressor(random_state=3209)
+2023-05-08 22:26:41,778:INFO:create_model() successfully completed......................................
+2023-05-08 22:26:41,842:INFO:SubProcess create_model() end ==================================
+2023-05-08 22:26:41,842:INFO:Creating metrics dataframe
+2023-05-08 22:26:41,855:INFO:Initializing Random Forest Regressor
+2023-05-08 22:26:41,855:INFO:Total runtime is 0.26186167796452836 minutes
+2023-05-08 22:26:41,858:INFO:SubProcess create_model() called ==================================
+2023-05-08 22:26:41,858:INFO:Initializing create_model()
+2023-05-08 22:26:41,858:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, estimator=rf, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001DCF3EDEBC8>, model_only=True, return_train_score=False, kwargs={})
+2023-05-08 22:26:41,858:INFO:Checking exceptions
+2023-05-08 22:26:41,858:INFO:Importing libraries
+2023-05-08 22:26:41,858:INFO:Copying training dataset
+2023-05-08 22:26:41,862:INFO:Defining folds
+2023-05-08 22:26:41,862:INFO:Declaring metric variables
+2023-05-08 22:26:41,865:INFO:Importing untrained model
+2023-05-08 22:26:41,868:INFO:Random Forest Regressor Imported successfully
+2023-05-08 22:26:41,874:INFO:Starting cross validation
+2023-05-08 22:26:41,875:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-05-08 22:26:44,743:WARNING:C:\Users\Anes3\AppData\Roaming\Python\Python37\site-packages\pycaret\internal\pipeline.py:261: UserWarning: Persisting input arguments took 1.18s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  clone(self.steps[-1][1]), X, y, **fit_params_last_step
+
+2023-05-08 22:26:44,885:WARNING:C:\Users\Anes3\AppData\Roaming\Python\Python37\site-packages\pycaret\internal\pipeline.py:261: UserWarning: Persisting input arguments took 1.07s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  clone(self.steps[-1][1]), X, y, **fit_params_last_step
+
+2023-05-08 22:26:44,903:WARNING:C:\Users\Anes3\AppData\Roaming\Python\Python37\site-packages\pycaret\internal\pipeline.py:261: UserWarning: Persisting input arguments took 1.10s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  clone(self.steps[-1][1]), X, y, **fit_params_last_step
+
+2023-05-08 22:26:44,986:WARNING:C:\Users\Anes3\AppData\Roaming\Python\Python37\site-packages\pycaret\internal\pipeline.py:261: UserWarning: Persisting input arguments took 1.13s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  clone(self.steps[-1][1]), X, y, **fit_params_last_step
+
+2023-05-08 22:26:46,405:INFO:Calculating mean and std
+2023-05-08 22:26:46,405:INFO:Creating metrics dataframe
+2023-05-08 22:26:46,504:INFO:Uploading results into container
+2023-05-08 22:26:46,504:INFO:Uploading model into container now
+2023-05-08 22:26:46,505:INFO:_master_model_container: 13
+2023-05-08 22:26:46,505:INFO:_display_container: 2
+2023-05-08 22:26:46,505:INFO:RandomForestRegressor(n_jobs=-1, random_state=3209)
+2023-05-08 22:26:46,505:INFO:create_model() successfully completed......................................
+2023-05-08 22:26:46,566:INFO:SubProcess create_model() end ==================================
+2023-05-08 22:26:46,567:INFO:Creating metrics dataframe
+2023-05-08 22:26:46,579:INFO:Initializing Extra Trees Regressor
+2023-05-08 22:26:46,579:INFO:Total runtime is 0.3405883948008219 minutes
+2023-05-08 22:26:46,583:INFO:SubProcess create_model() called ==================================
+2023-05-08 22:26:46,583:INFO:Initializing create_model()
+2023-05-08 22:26:46,583:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, estimator=et, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001DCF3EDEBC8>, model_only=True, return_train_score=False, kwargs={})
+2023-05-08 22:26:46,583:INFO:Checking exceptions
+2023-05-08 22:26:46,583:INFO:Importing libraries
+2023-05-08 22:26:46,583:INFO:Copying training dataset
+2023-05-08 22:26:46,588:INFO:Defining folds
+2023-05-08 22:26:46,588:INFO:Declaring metric variables
+2023-05-08 22:26:46,591:INFO:Importing untrained model
+2023-05-08 22:26:46,596:INFO:Extra Trees Regressor Imported successfully
+2023-05-08 22:26:46,602:INFO:Starting cross validation
+2023-05-08 22:26:46,603:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-05-08 22:26:48,545:WARNING:C:\Users\Anes3\AppData\Roaming\Python\Python37\site-packages\pycaret\internal\pipeline.py:261: UserWarning: Persisting input arguments took 0.72s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  clone(self.steps[-1][1]), X, y, **fit_params_last_step
+
+2023-05-08 22:26:48,615:WARNING:C:\Users\Anes3\AppData\Roaming\Python\Python37\site-packages\pycaret\internal\pipeline.py:261: UserWarning: Persisting input arguments took 0.61s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  clone(self.steps[-1][1]), X, y, **fit_params_last_step
+
+2023-05-08 22:26:48,648:WARNING:C:\Users\Anes3\AppData\Roaming\Python\Python37\site-packages\pycaret\internal\pipeline.py:261: UserWarning: Persisting input arguments took 0.74s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  clone(self.steps[-1][1]), X, y, **fit_params_last_step
+
+2023-05-08 22:26:48,981:WARNING:C:\Users\Anes3\AppData\Roaming\Python\Python37\site-packages\pycaret\internal\pipeline.py:261: UserWarning: Persisting input arguments took 0.69s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  clone(self.steps[-1][1]), X, y, **fit_params_last_step
+
+2023-05-08 22:26:50,742:INFO:Calculating mean and std
+2023-05-08 22:26:50,743:INFO:Creating metrics dataframe
+2023-05-08 22:26:50,848:INFO:Uploading results into container
+2023-05-08 22:26:50,848:INFO:Uploading model into container now
+2023-05-08 22:26:50,849:INFO:_master_model_container: 14
+2023-05-08 22:26:50,849:INFO:_display_container: 2
+2023-05-08 22:26:50,849:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=3209)
+2023-05-08 22:26:50,849:INFO:create_model() successfully completed......................................
+2023-05-08 22:26:50,909:INFO:SubProcess create_model() end ==================================
+2023-05-08 22:26:50,909:INFO:Creating metrics dataframe
+2023-05-08 22:26:50,922:INFO:Initializing AdaBoost Regressor
+2023-05-08 22:26:50,923:INFO:Total runtime is 0.41298940976460774 minutes
+2023-05-08 22:26:50,926:INFO:SubProcess create_model() called ==================================
+2023-05-08 22:26:50,926:INFO:Initializing create_model()
+2023-05-08 22:26:50,926:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, estimator=ada, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001DCF3EDEBC8>, model_only=True, return_train_score=False, kwargs={})
+2023-05-08 22:26:50,926:INFO:Checking exceptions
+2023-05-08 22:26:50,926:INFO:Importing libraries
+2023-05-08 22:26:50,926:INFO:Copying training dataset
+2023-05-08 22:26:50,931:INFO:Defining folds
+2023-05-08 22:26:50,931:INFO:Declaring metric variables
+2023-05-08 22:26:50,934:INFO:Importing untrained model
+2023-05-08 22:26:50,937:INFO:AdaBoost Regressor Imported successfully
+2023-05-08 22:26:50,944:INFO:Starting cross validation
+2023-05-08 22:26:50,945:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-05-08 22:26:52,025:INFO:Calculating mean and std
+2023-05-08 22:26:52,026:INFO:Creating metrics dataframe
+2023-05-08 22:26:52,142:INFO:Uploading results into container
+2023-05-08 22:26:52,142:INFO:Uploading model into container now
+2023-05-08 22:26:52,142:INFO:_master_model_container: 15
+2023-05-08 22:26:52,142:INFO:_display_container: 2
+2023-05-08 22:26:52,142:INFO:AdaBoostRegressor(random_state=3209)
+2023-05-08 22:26:52,143:INFO:create_model() successfully completed......................................
+2023-05-08 22:26:52,203:INFO:SubProcess create_model() end ==================================
+2023-05-08 22:26:52,203:INFO:Creating metrics dataframe
+2023-05-08 22:26:52,216:INFO:Initializing Gradient Boosting Regressor
+2023-05-08 22:26:52,216:INFO:Total runtime is 0.43453234831492105 minutes
+2023-05-08 22:26:52,219:INFO:SubProcess create_model() called ==================================
+2023-05-08 22:26:52,219:INFO:Initializing create_model()
+2023-05-08 22:26:52,219:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, estimator=gbr, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001DCF3EDEBC8>, model_only=True, return_train_score=False, kwargs={})
+2023-05-08 22:26:52,219:INFO:Checking exceptions
+2023-05-08 22:26:52,219:INFO:Importing libraries
+2023-05-08 22:26:52,219:INFO:Copying training dataset
+2023-05-08 22:26:52,223:INFO:Defining folds
+2023-05-08 22:26:52,224:INFO:Declaring metric variables
+2023-05-08 22:26:52,226:INFO:Importing untrained model
+2023-05-08 22:26:52,230:INFO:Gradient Boosting Regressor Imported successfully
+2023-05-08 22:26:52,235:INFO:Starting cross validation
+2023-05-08 22:26:52,236:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-05-08 22:26:54,080:INFO:Calculating mean and std
+2023-05-08 22:26:54,081:INFO:Creating metrics dataframe
+2023-05-08 22:26:54,194:INFO:Uploading results into container
+2023-05-08 22:26:54,195:INFO:Uploading model into container now
+2023-05-08 22:26:54,195:INFO:_master_model_container: 16
+2023-05-08 22:26:54,195:INFO:_display_container: 2
+2023-05-08 22:26:54,195:INFO:GradientBoostingRegressor(random_state=3209)
+2023-05-08 22:26:54,195:INFO:create_model() successfully completed......................................
+2023-05-08 22:26:54,258:INFO:SubProcess create_model() end ==================================
+2023-05-08 22:26:54,258:INFO:Creating metrics dataframe
+2023-05-08 22:26:54,271:INFO:Initializing Extreme Gradient Boosting
+2023-05-08 22:26:54,271:INFO:Total runtime is 0.4687797466913859 minutes
+2023-05-08 22:26:54,274:INFO:SubProcess create_model() called ==================================
+2023-05-08 22:26:54,274:INFO:Initializing create_model()
+2023-05-08 22:26:54,274:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, estimator=xgboost, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001DCF3EDEBC8>, model_only=True, return_train_score=False, kwargs={})
+2023-05-08 22:26:54,274:INFO:Checking exceptions
+2023-05-08 22:26:54,275:INFO:Importing libraries
+2023-05-08 22:26:54,275:INFO:Copying training dataset
+2023-05-08 22:26:54,279:INFO:Defining folds
+2023-05-08 22:26:54,279:INFO:Declaring metric variables
+2023-05-08 22:26:54,281:INFO:Importing untrained model
+2023-05-08 22:26:54,285:INFO:Extreme Gradient Boosting Imported successfully
+2023-05-08 22:26:54,291:INFO:Starting cross validation
+2023-05-08 22:26:54,292:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-05-08 22:26:56,253:INFO:Calculating mean and std
+2023-05-08 22:26:56,254:INFO:Creating metrics dataframe
+2023-05-08 22:26:56,376:INFO:Uploading results into container
+2023-05-08 22:26:56,377:INFO:Uploading model into container now
+2023-05-08 22:26:56,377:INFO:_master_model_container: 17
+2023-05-08 22:26:56,377:INFO:_display_container: 2
+2023-05-08 22:26:56,377:INFO:XGBRegressor(base_score=None, booster='gbtree', colsample_bylevel=None,
+             colsample_bynode=None, colsample_bytree=None,
+             enable_categorical=False, gamma=None, gpu_id=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_delta_step=None, max_depth=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             n_estimators=100, n_jobs=-1, num_parallel_tree=None,
+             predictor=None, random_state=3209, reg_alpha=None, reg_lambda=None,
+             scale_pos_weight=None, subsample=None, tree_method='auto',
+             validate_parameters=None, verbosity=0)
+2023-05-08 22:26:56,377:INFO:create_model() successfully completed......................................
+2023-05-08 22:26:56,449:INFO:SubProcess create_model() end ==================================
+2023-05-08 22:26:56,449:INFO:Creating metrics dataframe
+2023-05-08 22:26:56,465:INFO:Initializing Light Gradient Boosting Machine
+2023-05-08 22:26:56,465:INFO:Total runtime is 0.5053513884544373 minutes
+2023-05-08 22:26:56,469:INFO:SubProcess create_model() called ==================================
+2023-05-08 22:26:56,469:INFO:Initializing create_model()
+2023-05-08 22:26:56,469:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, estimator=lightgbm, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001DCF3EDEBC8>, model_only=True, return_train_score=False, kwargs={})
+2023-05-08 22:26:56,469:INFO:Checking exceptions
+2023-05-08 22:26:56,469:INFO:Importing libraries
+2023-05-08 22:26:56,469:INFO:Copying training dataset
+2023-05-08 22:26:56,474:INFO:Defining folds
+2023-05-08 22:26:56,474:INFO:Declaring metric variables
+2023-05-08 22:26:56,477:INFO:Importing untrained model
+2023-05-08 22:26:56,480:INFO:Light Gradient Boosting Machine Imported successfully
+2023-05-08 22:26:56,488:INFO:Starting cross validation
+2023-05-08 22:26:56,489:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-05-08 22:26:58,720:INFO:Calculating mean and std
+2023-05-08 22:26:58,721:INFO:Creating metrics dataframe
+2023-05-08 22:26:58,843:INFO:Uploading results into container
+2023-05-08 22:26:58,843:INFO:Uploading model into container now
+2023-05-08 22:26:58,844:INFO:_master_model_container: 18
+2023-05-08 22:26:58,844:INFO:_display_container: 2
+2023-05-08 22:26:58,844:INFO:LGBMRegressor(random_state=3209)
+2023-05-08 22:26:58,844:INFO:create_model() successfully completed......................................
+2023-05-08 22:26:58,907:INFO:SubProcess create_model() end ==================================
+2023-05-08 22:26:58,907:INFO:Creating metrics dataframe
+2023-05-08 22:26:58,920:INFO:Initializing Dummy Regressor
+2023-05-08 22:26:58,920:INFO:Total runtime is 0.5462718129158021 minutes
+2023-05-08 22:26:58,923:INFO:SubProcess create_model() called ==================================
+2023-05-08 22:26:58,924:INFO:Initializing create_model()
+2023-05-08 22:26:58,924:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, estimator=dummy, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001DCF3EDEBC8>, model_only=True, return_train_score=False, kwargs={})
+2023-05-08 22:26:58,924:INFO:Checking exceptions
+2023-05-08 22:26:58,924:INFO:Importing libraries
+2023-05-08 22:26:58,924:INFO:Copying training dataset
+2023-05-08 22:26:58,928:INFO:Defining folds
+2023-05-08 22:26:58,928:INFO:Declaring metric variables
+2023-05-08 22:26:58,931:INFO:Importing untrained model
+2023-05-08 22:26:58,934:INFO:Dummy Regressor Imported successfully
+2023-05-08 22:26:58,940:INFO:Starting cross validation
+2023-05-08 22:26:58,941:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-05-08 22:26:59,893:INFO:Calculating mean and std
+2023-05-08 22:26:59,894:INFO:Creating metrics dataframe
+2023-05-08 22:27:00,016:INFO:Uploading results into container
+2023-05-08 22:27:00,016:INFO:Uploading model into container now
+2023-05-08 22:27:00,017:INFO:_master_model_container: 19
+2023-05-08 22:27:00,017:INFO:_display_container: 2
+2023-05-08 22:27:00,017:INFO:DummyRegressor()
+2023-05-08 22:27:00,017:INFO:create_model() successfully completed......................................
+2023-05-08 22:27:00,082:INFO:SubProcess create_model() end ==================================
+2023-05-08 22:27:00,082:INFO:Creating metrics dataframe
+2023-05-08 22:27:00,104:INFO:Initializing create_model()
+2023-05-08 22:27:00,105:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DCF180C8C8>, estimator=GradientBoostingRegressor(random_state=3209), fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2023-05-08 22:27:00,105:INFO:Checking exceptions
+2023-05-08 22:27:00,106:INFO:Importing libraries
+2023-05-08 22:27:00,106:INFO:Copying training dataset
+2023-05-08 22:27:00,111:INFO:Defining folds
+2023-05-08 22:27:00,111:INFO:Declaring metric variables
+2023-05-08 22:27:00,111:INFO:Importing untrained model
+2023-05-08 22:27:00,111:INFO:Declaring custom model
+2023-05-08 22:27:00,112:INFO:Gradient Boosting Regressor Imported successfully
+2023-05-08 22:27:00,112:INFO:Cross validation set to False
+2023-05-08 22:27:00,112:INFO:Fitting Model
+2023-05-08 22:27:01,023:INFO:GradientBoostingRegressor(random_state=3209)
+2023-05-08 22:27:01,023:INFO:create_model() successfully completed......................................
+2023-05-08 22:27:01,121:INFO:_master_model_container: 19
+2023-05-08 22:27:01,121:INFO:_display_container: 2
+2023-05-08 22:27:01,121:INFO:GradientBoostingRegressor(random_state=3209)
+2023-05-08 22:27:01,121:INFO:compare_models() successfully completed......................................
+2023-05-08 22:28:54,592:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  This is separate from the ipykernel package so we can avoid doing imports until
+
+2023-05-08 22:29:08,459:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  This is separate from the ipykernel package so we can avoid doing imports until
+
+2023-05-08 22:31:00,009:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  This is separate from the ipykernel package so we can avoid doing imports until
+
+2023-05-08 22:35:56,397:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  This is separate from the ipykernel package so we can avoid doing imports until
+
+2023-05-08 22:36:43,654:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  This is separate from the ipykernel package so we can avoid doing imports until
+
+2023-05-08 22:37:53,613:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  This is separate from the ipykernel package so we can avoid doing imports until
+
+2023-05-08 22:38:38,171:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  This is separate from the ipykernel package so we can avoid doing imports until
+
+2023-05-08 22:42:22,275:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  This is separate from the ipykernel package so we can avoid doing imports until
+
+2023-05-08 22:43:29,297:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  This is separate from the ipykernel package so we can avoid doing imports until
+
+2023-05-08 22:45:49,793:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  This is separate from the ipykernel package so we can avoid doing imports until
+
+2023-05-08 22:48:58,598:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:48:58,600:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  from ipykernel import kernelapp as app
+
+2023-05-08 22:48:58,600:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:48:58,600:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:17: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  app.launch_new_instance()
+
+2023-05-08 22:49:00,067:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:00,067:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  from ipykernel import kernelapp as app
+
+2023-05-08 22:49:00,068:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:00,068:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:17: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  app.launch_new_instance()
+
+2023-05-08 22:49:02,373:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:02,374:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  from ipykernel import kernelapp as app
+
+2023-05-08 22:49:02,374:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:02,374:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:17: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  app.launch_new_instance()
+
+2023-05-08 22:49:04,258:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:04,259:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  from ipykernel import kernelapp as app
+
+2023-05-08 22:49:04,259:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:04,260:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:17: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  app.launch_new_instance()
+
+2023-05-08 22:49:04,805:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:04,806:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  from ipykernel import kernelapp as app
+
+2023-05-08 22:49:04,806:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:04,806:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:17: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  app.launch_new_instance()
+
+2023-05-08 22:49:06,462:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:06,463:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  from ipykernel import kernelapp as app
+
+2023-05-08 22:49:06,463:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:06,463:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:17: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  app.launch_new_instance()
+
+2023-05-08 22:49:08,936:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:08,936:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  from ipykernel import kernelapp as app
+
+2023-05-08 22:49:08,937:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:08,937:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:17: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  app.launch_new_instance()
+
+2023-05-08 22:49:10,178:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:10,179:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  from ipykernel import kernelapp as app
+
+2023-05-08 22:49:10,180:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:10,180:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:17: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  app.launch_new_instance()
+
+2023-05-08 22:49:10,556:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:10,557:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  from ipykernel import kernelapp as app
+
+2023-05-08 22:49:10,558:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:10,558:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:17: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  app.launch_new_instance()
+
+2023-05-08 22:49:10,892:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:10,893:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  from ipykernel import kernelapp as app
+
+2023-05-08 22:49:10,893:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:10,894:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:17: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  app.launch_new_instance()
+
+2023-05-08 22:49:11,472:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  This is separate from the ipykernel package so we can avoid doing imports until
+
+2023-05-08 22:49:11,472:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:5: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  """
+
+2023-05-08 22:49:11,472:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:24,870:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  This is separate from the ipykernel package so we can avoid doing imports until
+
+2023-05-08 22:49:24,870:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:5: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  """
+
+2023-05-08 22:49:24,870:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:39,559:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  This is separate from the ipykernel package so we can avoid doing imports until
+
+2023-05-08 22:49:39,559:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:5: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  """
+
+2023-05-08 22:49:39,559:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:41,010:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  This is separate from the ipykernel package so we can avoid doing imports until
+
+2023-05-08 22:49:41,010:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:5: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  """
+
+2023-05-08 22:49:41,010:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:49:48,904:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  This is separate from the ipykernel package so we can avoid doing imports until
+
+2023-05-08 22:49:48,905:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:5: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  """
+
+2023-05-08 22:49:48,905:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:50:00,790:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  This is separate from the ipykernel package so we can avoid doing imports until
+
+2023-05-08 22:50:00,790:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:5: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  """
+
+2023-05-08 22:50:00,790:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:50:11,485:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  This is separate from the ipykernel package so we can avoid doing imports until
+
+2023-05-08 22:50:11,485:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:5: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  """
+
+2023-05-08 22:50:11,486:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:50:16,357:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  This is separate from the ipykernel package so we can avoid doing imports until
+
+2023-05-08 22:50:16,357:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:5: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  """
+
+2023-05-08 22:50:16,358:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:50:24,848:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  This is separate from the ipykernel package so we can avoid doing imports until
+
+2023-05-08 22:50:24,849:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:5: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  """
+
+2023-05-08 22:50:24,849:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:50:36,932:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  This is separate from the ipykernel package so we can avoid doing imports until
+
+2023-05-08 22:50:36,932:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:5: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  """
+
+2023-05-08 22:50:36,933:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:51:08,760:WARNING:C:\Users\Anes3\AppData\Roaming\Python\Python37\site-packages\optuna\distributions.py:686: UserWarning: The distribution is specified by [50, 1000] and step=100, but the range is not divisible by `step`. It will be replaced by [50, 950].
+  low=low, old_high=old_high, high=high, step=step
+
+2023-05-08 22:51:08,761:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:51:52,247:WARNING:C:\Users\Anes3\AppData\Roaming\Python\Python37\site-packages\optuna\distributions.py:686: UserWarning: The distribution is specified by [50, 1000] and step=100, but the range is not divisible by `step`. It will be replaced by [50, 950].
+  low=low, old_high=old_high, high=high, step=step
+
+2023-05-08 22:51:52,248:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:52:29,019:WARNING:C:\Users\Anes3\AppData\Roaming\Python\Python37\site-packages\optuna\distributions.py:686: UserWarning: The distribution is specified by [50, 1000] and step=100, but the range is not divisible by `step`. It will be replaced by [50, 950].
+  low=low, old_high=old_high, high=high, step=step
+
+2023-05-08 22:52:29,020:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:53:31,912:WARNING:C:\Users\Anes3\AppData\Roaming\Python\Python37\site-packages\optuna\distributions.py:686: UserWarning: The distribution is specified by [50, 1000] and step=100, but the range is not divisible by `step`. It will be replaced by [50, 950].
+  low=low, old_high=old_high, high=high, step=step
+
+2023-05-08 22:53:31,912:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:54:37,479:WARNING:C:\Users\Anes3\AppData\Roaming\Python\Python37\site-packages\optuna\distributions.py:686: UserWarning: The distribution is specified by [50, 1000] and step=100, but the range is not divisible by `step`. It will be replaced by [50, 950].
+  low=low, old_high=old_high, high=high, step=step
+
+2023-05-08 22:54:37,480:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:57:21,950:WARNING:C:\Users\Anes3\AppData\Roaming\Python\Python37\site-packages\optuna\distributions.py:686: UserWarning: The distribution is specified by [50, 1000] and step=100, but the range is not divisible by `step`. It will be replaced by [50, 950].
+  low=low, old_high=old_high, high=high, step=step
+
+2023-05-08 22:57:21,950:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:57:49,792:WARNING:C:\Users\Anes3\AppData\Roaming\Python\Python37\site-packages\optuna\distributions.py:686: UserWarning: The distribution is specified by [50, 1000] and step=100, but the range is not divisible by `step`. It will be replaced by [50, 950].
+  low=low, old_high=old_high, high=high, step=step
+
+2023-05-08 22:57:49,793:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:57:58,311:WARNING:C:\Users\Anes3\AppData\Roaming\Python\Python37\site-packages\optuna\distributions.py:686: UserWarning: The distribution is specified by [50, 1000] and step=100, but the range is not divisible by `step`. It will be replaced by [50, 950].
+  low=low, old_high=old_high, high=high, step=step
+
+2023-05-08 22:57:58,311:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 22:59:30,182:WARNING:C:\Users\Anes3\AppData\Roaming\Python\Python37\site-packages\optuna\distributions.py:686: UserWarning: The distribution is specified by [50, 1000] and step=100, but the range is not divisible by `step`. It will be replaced by [50, 950].
+  low=low, old_high=old_high, high=high, step=step
+
+2023-05-08 22:59:30,183:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 23:01:45,849:WARNING:C:\Users\Anes3\AppData\Roaming\Python\Python37\site-packages\optuna\distributions.py:686: UserWarning: The distribution is specified by [50, 1000] and step=100, but the range is not divisible by `step`. It will be replaced by [50, 950].
+  low=low, old_high=old_high, high=high, step=step
+
+2023-05-08 23:01:45,850:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  
+
+2023-05-08 23:16:32,344:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_ae91a940796f42d18d11124c9efdb1be_a0bd5fb3ebe24026ad999285aabe0a65
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,345:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_5372893d1dfc41f882ca40edd22c01b2_02d5673dc3a547f58979773bfaf25931
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,345:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_ae91a940796f42d18d11124c9efdb1be_a3841ba7eefb447ba47a2da47e394677
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,345:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_63e54be584cc4edfaaff444e50898f91_d7b4d09f493d4d88ba1559e461f7ce82
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,345:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_ae91a940796f42d18d11124c9efdb1be_4b84a96d439b4e21aa7704e6a990a482
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,346:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_b9a9bc7204fe4f5fa7a19394e3fc7b2e_d9a57835acb341399a8acda6f15dbf63
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,346:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_ae91a940796f42d18d11124c9efdb1be_0c5b08e8256747dc9f0df9fe9aaa03c6
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,346:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_78958493d2cd48a7b9483f88c5ead9b5_901dd12ad58c4a3c9d64ef9ccb6a18f4
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,346:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_ae91a940796f42d18d11124c9efdb1be_407bae134f38496aa5fd8d855fc162f2
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,346:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_25807f9835a34c5abc3892a3fb82fe93_cc75241034784a32ae23cc5deed23c5b
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,347:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_ae91a940796f42d18d11124c9efdb1be_2b26e0b499fa4b5fbaed7837612df4ad
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,347:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_4d45e39d2c7f4613b9f87ef6a2275894_b2013fa84e84420497dda4b65f80c711
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,347:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_ae91a940796f42d18d11124c9efdb1be_7ad00de0a12b4676b1f3e056bd989c0b
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,347:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_20bed1ad32e14af98d33b0718349eadc_bb370a2a54a5483190e52b1202582c3b
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,347:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_ae91a940796f42d18d11124c9efdb1be_7ae1656322c148d4a2e04ae8c91c73f1
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,347:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_bbd2e05980c54d969c6cf0b39672cdff_5959151504cd47d39c05f5a86cead13a
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,347:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_ae91a940796f42d18d11124c9efdb1be_5776b19e38b84391b1445887b1ac5a53
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,347:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_7ac2f1499b00404a9753c5933d799b52_9338c4e6fa044b83bf4cc73889387a7b
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,347:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_ae91a940796f42d18d11124c9efdb1be_04908027bd7d490aaf312bd44d4a49eb
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,347:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_95023218b2da4d4ca7f7d0e0b97f6b2d_a46af12e5b6749c98e6c77088d6b00ad
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,348:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_ae91a940796f42d18d11124c9efdb1be_a4e289e54f8346ff9ad91f8c70eab5bf
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,348:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_44161c7092f94077b83d718507416f47_df2e18401b6a4a92b6a5ba34b165e56a
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,348:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_ae91a940796f42d18d11124c9efdb1be_a8568a8e131648a38bc94148938baed0
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,348:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_2ca7f1d57e7e4e6f96c88b6bfa2f0c48_ab90cafa42cb4ad19175286f54d86af6
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,348:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_ae91a940796f42d18d11124c9efdb1be_befd987283384bfc803aa7ab5534206f
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,348:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_d048586f70ce42af920f06c212d428f4_e4b2db1da452474cb2d66360efcb41a3
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,348:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_ae91a940796f42d18d11124c9efdb1be_f9cb2ed46070476a937bd84da6e1876f
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,348:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_c05f8c0081ec4775857844aff65b58bc_1db7de0afcf2468f82afa30ea145697e
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,348:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_ae91a940796f42d18d11124c9efdb1be_599847678e0d4f538419ac8d2c0a1041
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,348:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_a11352b8db0146d49062f165ea807967_1bf2a560edb34f74a4797a740f5a1686
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,348:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_ae91a940796f42d18d11124c9efdb1be_4ada02d758e1450bb667a0152f6e7614
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,349:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_41b9681377654d458cefd1338b6e21d9_d9a54106e2d0460b8e14ddca5ca9c001
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,349:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_ae91a940796f42d18d11124c9efdb1be_d9610025bc93446d94ecb45028c785a9
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,349:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_bf41d4c91a51432fa6cebee19a4a4ad2_9a323f223f424a27aaa1c8f20837123d
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,349:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_ae91a940796f42d18d11124c9efdb1be_fd33feefaa5a48749b6cd2b4c6316661
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,349:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_bc46f78d6f0644278b9661193e3bd136_46055636decd4b4c99a895e829bb1dd9
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,349:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_ae91a940796f42d18d11124c9efdb1be_6dc9f710d9c24ad297dce5431f716d39
+  .format(pool_subfolder))
+
+2023-05-08 23:16:32,349:WARNING:C:\Users\Anes3\Anaconda3\lib\site-packages\joblib\_memmapping_reducer.py:612: UserWarning: Failed to delete temporary folder: C:\Users\Anes3\AppData\Local\Temp\joblib_memmapping_folder_16184_ae91a940796f42d18d11124c9efdb1be_ee849faaca824e40aa971d21ce3cdbee
+  .format(pool_subfolder))
+
+2023-05-08 23:17:05,268:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-08 23:17:05,268:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-08 23:17:05,269:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-08 23:17:05,269:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-08 23:17:05,707:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
